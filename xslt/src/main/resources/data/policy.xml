@@ -1,0 +1,15 @@
+<Policy>
+    <PolicyNumber>CH12345</PolicyNumber>
+    <InsuredName>Aakriti Kumari</InsuredName>
+    <Premium>8500</Premium>
+    <Coverages>
+        <Coverage>
+            <Type>Health</Type>
+            <SumInsured>500000</SumInsured>
+        </Coverage>
+        <Coverage>
+            <Type>Accident</Type>
+            <SumInsured>1000000</SumInsured>
+        </Coverage>
+    </Coverages>
+</Policy>

@@ -1,0 +1,10 @@
+| Rule No | Business Rule                         | XML Field(s)       | XSLT Action          |
+| ------- | ------------------------------------- | ------------------ | -------------------- |
+| R1      | Premium > 5000 → show in red          | Premium            | Conditional style    |
+| R2      | Display coverage table only if exists | Coverages          | `<xsl:if test>`      |
+| R3      | Format IssueDate                      | IssueDate          | substring formatting |
+| R4      | Show “N/A” if value missing           | Name, PolicyNumber | default value logic  |
+| R5      | Sort coverages by SumInsured desc     | Coverages/Coverage | `<xsl:sort>`         |
+| R6      | If > 5 coverages → show message       | Coverages          | count() check        |
+| R7      | If no coverages → fallback            | Coverages          | `not()` condition    |
+
